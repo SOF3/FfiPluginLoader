@@ -1,0 +1,9 @@
+[package]
+name = "pocketmine"
+version = "0.1.0"
+authors = ["PMMP Team <team@pmmp.io>", "SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.79"
+

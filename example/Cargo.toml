@@ -1,0 +1,12 @@
+[package]
+name = "example-plugin"
+version = "0.2.0"
+authors = ["SOFe <sofe2038@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.78"
+pocketmine = {path = ".."}
