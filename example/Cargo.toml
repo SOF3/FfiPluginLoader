@@ -8,5 +8,5 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-libc = "0.2.78"
-pocketmine = {path = ".."}
+anyhow = "1.0.33"
+pocketmine = {path = "../rust"}
